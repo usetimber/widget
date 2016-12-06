@@ -8,9 +8,8 @@ module.exports = {
   output: {
     path: path.join(__dirname, '/build'),
     publicPath: '/build',
-    filename: 'timber.js'
+    filename: 'timber.min.js'
   },
-  devtool: '#source-map',
   module: {
     loaders: [{
       test: /\.js$/,
